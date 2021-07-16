@@ -6,4 +6,57 @@
 
 body{
     font-family: 'Encode Sans SC', sans-serif; 
+    background-color: black;
+}
+main{
+    color: white;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.relative{
+    position: relative;
+}
+
+header button{
+    background-color: rgba(36, 36, 36, 0.837);
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    margin: 2px;
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+}
+
+header{
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+main > div.display-flex{
+    height: 1000px;
+}
+
+.container-subject{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-image: url(../img/videochiamate.png);
+}
+
+.container-subject span{
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.467);
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
 }
