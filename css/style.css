@@ -16,10 +16,6 @@ main{
     display: flex;
 }
 
-.wrap{
-    flex-wrap: wrap;
-}
-
 .relative{
     position: relative;
 }
@@ -43,14 +39,19 @@ header{
 }
 
 main > div.display-flex{
-    height: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .container-subject{
-    width: 300px;
-    height: 200px;
+    flex-grow: 1;
+    min-width: 150px;
+    min-height: 50px;
     background-size: cover;
     background-image: url(../img/videochiamate.png);
+    margin-bottom: 10px;
 }
 
 .container-subject span{
